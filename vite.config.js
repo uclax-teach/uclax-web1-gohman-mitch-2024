@@ -11,4 +11,8 @@ export default defineConfig({
     resolve: {
         alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
     },
+    build: {
+        outDir: "./build",
+    },
+    base: "/uclax-web1-gohman-mitch-2024/",
 });
